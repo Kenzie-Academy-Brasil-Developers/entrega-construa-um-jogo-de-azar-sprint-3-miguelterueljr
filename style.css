@@ -1,0 +1,25 @@
+body {
+  background-color: white;
+  color: blue;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: blue;
+}
+h4 {
+    font-size: 22px;
+}
+
+p{
+    font-size: 18px;
+}
+
+@media (min-width: 768px) {
+    body {
+        background-image: url(mario-luigi-yoschi-figures-163036.jpeg);
+        background-size: cover;
+        color: white;
+    }
+}
